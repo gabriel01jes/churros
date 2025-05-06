@@ -1,0 +1,63 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+/* Galeria de imagens */
+.churros-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.churros-gallery img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Estilo do botão de contato */
+.btn-contato {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn-contato:hover {
+    background-color: #ff9933;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
